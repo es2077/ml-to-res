@@ -1,0 +1,12 @@
+{
+  "name": "real-world-ocaml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ml-to-res": "node_modules/.bin/bsc -format playground.ml > playground.res"
+  },
+  "dependencies": {
+    "rescript": "^10.0.1"
+  }
+}
